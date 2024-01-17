@@ -104,7 +104,7 @@ class EmployeeController {
     @GetMapping("/healthz")
     public String healthz() {
         logger.debug("########################healthz");
-        return "UP";
+        return "UPP";
     }
 
 
